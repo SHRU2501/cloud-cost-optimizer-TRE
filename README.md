@@ -1,4 +1,4 @@
-#An Aprach to Reducing Cloud Cost & Bandwith using TRE System
+<img width="1373" height="715" alt="Picture1(1)" src="https://github.com/user-attachments/assets/fd464b31-70c2-4a33-9843-dac42352b741" />#An Aprach to Reducing Cloud Cost & Bandwith using TRE System
 
 ## Abstract
 
@@ -28,8 +28,54 @@ This research proposes an approach to reduce cloud costs and bandwidth using the
 ---
 
 
+
 ## Signature Generation Using SHA
 
 Secure Hash Algorithm (SHA) is used to generate cryptographic signatures for each file chunk. These signatures identify duplicate blocks, enabling high-efficiency deduplication and reducing unnecessary data transfers. SHA-256 ensures reliability and uniqueness in fingerprinting.
 
+
+---
+ Sample Workflow
+'''mardown
+1.First run the cloud application:
+<img width="596" height="311" alt="Picture2" src="https://github.com/user-attachments/assets/50f41b3d-c037-426c-929a-4c4b5716166b" />
+
+2.Run the client application:
+2.[Uploading Picture1(1).png…]()
+
+3.Click on new user to register as a new user: New user registration screen:
+3.<img width="1366" height="729" alt="Picture3" src="https://github.com/user-attachments/assets/5f07aef4-6fe7-45d2-b577-a54e0c695848" />
+
+4.Registering as a new user:
+4.<img width="785" height="589" alt="Picture4" src="https://github.com/user-attachments/assets/4a113aa1-2846-492d-b13a-338805074035" />
+
+5.Click on Upload data to upload the files onto cloud:
+<img width="1366" height="723" alt="Picture5" src="https://github.com/user-attachments/assets/b6c8b61a-0b2b-4408-80b9-0aa8d77c87d8" />
+
+6.Server screen:
+<img width="1366" height="726" alt="Picture6" src="https://github.com/user-attachments/assets/d51d3344-edee-4344-9ae5-afcc0f3f4bf2" />
+
+7.The uploaded files will be stored at cloud side
+Client can download the data from cloud, to download click on Download Data.
+<img width="1366" height="726" alt="Picture7" src="https://github.com/user-attachments/assets/e1b7ea89-9f62-43e5-a4a2-406f22b81076" />
+
+8.Server side after downloading the file:
+<img width="1366" height="731" alt="Picture8" src="https://github.com/user-attachments/assets/17e06496-c8d1-4321-ae90-50e5a04588a7" />
+
+9.Download the same data for next time:
+(The same data is already there at local cache so it copies directly from there)
+<img width="1366" height="729" alt="Picture9" src="https://github.com/user-attachments/assets/b210b65b-6902-4911-bbf3-d69da3eaced2" />
+
+10.Server side:
+<img width="1366" height="724" alt="Picture10" src="https://github.com/user-attachments/assets/4caed03e-f40f-4251-88e1-50ccfd76c7fd" />
+
+RESULT
+<img width="1366" height="726" alt="Picture11" src="https://github.com/user-attachments/assets/f587a105-126e-417b-b443-d77e99e8ab8e" />
+
+
+  REadme.md
   
+  ## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
