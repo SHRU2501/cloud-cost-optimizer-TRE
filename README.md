@@ -33,6 +33,17 @@ Secure Hash Algorithm (SHA) is used to generate cryptographic signatures for eac
 
 ---
 
-
-
-
+```plaintext
+/tre-system
+│
+├── src/
+│   ├── chunking/
+│   ├── hashing/
+│   ├── database/
+│   └── ui/
+│
+├── resources/
+│   └── config.properties
+│
+├── README.md
+└── LICENSE
