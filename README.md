@@ -1,57 +1,3 @@
-<<<<<<< HEAD
-package pack;
-
-import javax.swing.JFrame;
-
-public class Login extends JFrame {
-    LineBorder border;
-    TitledBorder title;
-    JLabel l1, l2;
-    JPanel p1;
-    JButton b1, b2;
-    JTextField tf1, tf2;
-
-    public Login() {
-        super("User Login Screen");
-        Font f1 = new Font("Monospaced", Font.BOLD, 16);
-        Font f2 = new Font("Tahoma", Font.BOLD, 16);
-
-        p1 = new JPanel();
-        p1.setLayout(new GridLayout(5, 2));
-        p1.setBackground(new Color(42, 140, 241));
-        border = new LineBorder(new Color(42, 140, 241), 1, true);
-        title = new TitledBorder(border, "User Login Screen", TitledBorder.CENTER, TitledBorder.DEFAULT_POSITION, f2, Color.darkGray);
-        p1.setBorder(title);
-
-        l1 = new JLabel("Username");
-        l1.setFont(f2);
-        p1.add(l1);
-        tf1 = new JTextField(20);
-        tf1.setFont(f2);
-        p1.add(tf1);
-
-        l2 = new JLabel("Password");
-        l2.setFont(f2);
-        p1.add(l2);
-        tf2 = new JPasswordField(20);
-        tf2.setFont(f2);
-        p1.add(tf2);
-
-        b1 = new JButton("Login");
-        b1.setFont(f2);
-        p1.add(b1);
-        b1.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent ae) {
-                login();
-            }
-        });
-
-        b2 = new JButton("Reset");
-        b2.setFont(f2);
-        p1.add(b2);
-    }
-}
-=======
 #An Aprach to Reducing Cloud Cost & Bandwith using TRE System
 
 ## Abstract
@@ -173,6 +119,61 @@ RESULT
 >>>>>>> c30435fe671cffa80724ed08fa94047b3f4678e4
 
 
+
+
+
+<<<<<<< HEAD
+package pack;
+
+import javax.swing.JFrame;
+
+public class Login extends JFrame {
+    LineBorder border;
+    TitledBorder title;
+    JLabel l1, l2;
+    JPanel p1;
+    JButton b1, b2;
+    JTextField tf1, tf2;
+   public Login() {
+        super("User Login Screen");
+        Font f1 = new Font("Monospaced", Font.BOLD, 16);
+        Font f2 = new Font("Tahoma", Font.BOLD, 16);
+
+        p1 = new JPanel();
+        p1.setLayout(new GridLayout(5, 2));
+        p1.setBackground(new Color(42, 140, 241));
+        border = new LineBorder(new Color(42, 140, 241), 1, true);
+        title = new TitledBorder(border, "User Login Screen", TitledBorder.CENTER, TitledBorder.DEFAULT_POSITION, f2, Color.darkGray);
+        p1.setBorder(title);
+
+        l1 = new JLabel("Username");
+        l1.setFont(f2);
+        p1.add(l1);
+        tf1 = new JTextField(20);
+        tf1.setFont(f2);
+        p1.add(tf1);
+
+        l2 = new JLabel("Password");
+        l2.setFont(f2);
+        p1.add(l2);
+        tf2 = new JPasswordField(20);
+        tf2.setFont(f2);
+        p1.add(tf2);
+
+        b1 = new JButton("Login");
+        b1.setFont(f2);
+        p1.add(b1);
+        b1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent ae) {
+                login();
+            }
+        }); 
+b2 = new JButton("Reset");
+        b2.setFont(f2);
+        p1.add(b2);
+    }
+}
+=======
 
 
 
