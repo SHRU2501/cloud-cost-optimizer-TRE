@@ -1,4 +1,4 @@
-# TRE SYSTEM – Cloud Optimization & Data Deduplication Tool
+#An Aprach to Reducing Cloud Cost & Bandwith using TRE System
 
 ## Abstract
 
