@@ -168,12 +168,6 @@ public class Login extends JFrame {
                 login();
             }
         }); 
-b2 = new JButton("Reset");
-        b2.setFont(f2);
-        p1.add(b2);
-    }
-}
-=======
 
 
 
