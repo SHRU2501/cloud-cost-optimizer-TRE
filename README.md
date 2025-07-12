@@ -27,6 +27,7 @@ This research proposes an approach to reduce cloud costs and bandwidth using the
 
 ---
 
+
 ## Signature Generation Using SHA
 
 Secure Hash Algorithm (SHA) is used to generate cryptographic signatures for each file chunk. These signatures identify duplicate blocks, enabling high-efficiency deduplication and reducing unnecessary data transfers. SHA-256 ensures reliability and uniqueness in fingerprinting.
