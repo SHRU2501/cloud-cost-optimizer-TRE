@@ -1,4 +1,4 @@
-<img width="1373" height="715" alt="Picture1(1)" src="https://github.com/user-attachments/assets/fd464b31-70c2-4a33-9843-dac42352b741" />#An Aprach to Reducing Cloud Cost & Bandwith using TRE System
+#An Aprach to Reducing Cloud Cost & Bandwith using TRE System
 
 ## Abstract
 
@@ -38,7 +38,7 @@ Secure Hash Algorithm (SHA) is used to generate cryptographic signatures for eac
  Sample Workflow
 '''mardown
 1.First run the cloud application:
-<img width="596" height="311" alt="Picture2" src="https://github.com/user-attachments/assets/50f41b3d-c037-426c-929a-4c4b5716166b" />
+<img width="100" height="100" alt="Picture2" src="https://github.com/user-attachments/assets/50f41b3d-c037-426c-929a-4c4b5716166b" />
 
 2.Run the client application:
 2.[Uploading Picture1(1).png…]()
